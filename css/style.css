@@ -128,3 +128,91 @@
 .badge.new {
     background: #1b7f4d;
 }
+
+/* WHATSAPP FLOAT */
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: transform 0.3s;
+}
+
+.whatsapp-float i {
+    color: white;
+    font-size: 32px;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-float {
+    text-decoration: none;   /* HILANGKAN GARIS BAWAH */
+    outline: none;           /* HILANGKAN GARIS FOKUS */
+}
+
+.whatsapp-float:focus,
+.whatsapp-float:active,
+.whatsapp-float:visited {
+    outline: none;
+    text-decoration: none;
+}
+
+/* BUTTON PESAWAT */
+.order-btn {
+    width: 45px;
+    height: 45px;
+    margin-top: 12px;
+    align-self: flex-end;
+    background: #1b7f4d;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.order-btn i {
+    color: white;
+    font-size: 18px;
+}
+
+.order-btn:hover {
+    background: #14643c;
+    transform: scale(1.1);
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-btn {
+    text-decoration: none;
+}
+
+.order-btn:focus,
+.order-btn:active,
+.order-btn:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-simple {
+    background: #1b7f4d;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 13px;
+}
